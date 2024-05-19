@@ -6,8 +6,7 @@ body {
   .emojis{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 10px;
   }
   
   .emoji {
@@ -16,6 +15,12 @@ body {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  .emoji p{
+    color: red;
   }
   
   .emoji h2 {
@@ -33,4 +38,7 @@ body {
   
   .icon {
     font-size: 4rem;
+    align-self: center;
+    order: -1;
   }
+
